@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import { BsAlphabet, BsBarChartSteps, BsLightbulbFill, BsMicrosoft, BsTriangle, BsTriangleFill } from "react-icons/bs";
 
 export const links = [
   {
@@ -35,28 +36,44 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "B.Tech. in Computer Science",
+    location: "Netaji Subhas University of Technology, Delhi, India",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I graduated with a B.Tech. in Computer Science from NSUT, Delhi. I was a member of the university's coding club and participated in various hackathons.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2020 - 2024",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Full Stack Developer Intern",
+    location: "My School Analytics, Remote",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+      "I worked as a full-stack developer on a startup project for 6 months. I was responsible for the front-end and back-end development.",
+    icon: React.createElement(BsLightbulbFill),
+    date: "2022 - 2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Full Stack Developer Intern",
+    location: "Airbook, Remote",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "I worked as a full-stack developer on a startup project for 3 months. I was responsible for the front-end and back-end development.",
+    icon: React.createElement(BsTriangleFill),
+    date: "2022 - 2023",
+  },
+  {
+    title: "Full Stack Intern",
+    location: "Aguken AI, Remote",
+    description:
+      "I worked as a full-stack Intern on a startup project for 6 months. I was responsible for the front-end and back-end development.",
+    icon: React.createElement(BsAi),
+    date: "2023 - 2024",
+  },
+  {
+    title: "Sofware Engineer",
+    location: "Microsoft, Hyderabad, India",
+    description:
+      "I am working as a software engineer at Microsoft. ",
+    icon: React.createElement(BsMicrosoft),
+    date: "2024 - Present",
   },
 ] as const;
 
