@@ -1,11 +1,9 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
+import shcLoginImg from "@/public/shc-login.webp";
 import wordanalyticsImg from "@/public/wordanalytics.png";
-import { BsAlphabet, BsBarChartSteps, BsLightbulbFill, BsMicrosoft, BsTriangle, BsTriangleFill } from "react-icons/bs";
+import { Bs0Circle, Bs0Square, BsAlarmFill, BsMicrosoft } from "react-icons/bs";
 
 export const links = [
   {
@@ -48,7 +46,7 @@ export const experiencesData = [
     location: "My School Analytics, Remote",
     description:
       "I worked as a full-stack developer on a startup project for 6 months. I was responsible for the front-end and back-end development.",
-    icon: React.createElement(BsLightbulbFill),
+    icon: React.createElement(Bs0Circle),
     date: "2022 - 2023",
   },
   {
@@ -56,7 +54,7 @@ export const experiencesData = [
     location: "Airbook, Remote",
     description:
       "I worked as a full-stack developer on a startup project for 3 months. I was responsible for the front-end and back-end development.",
-    icon: React.createElement(BsTriangleFill),
+    icon: React.createElement(Bs0Square),
     date: "2022 - 2023",
   },
   {
@@ -64,7 +62,7 @@ export const experiencesData = [
     location: "Aguken AI, Remote",
     description:
       "I worked as a full-stack Intern on a startup project for 6 months. I was responsible for the front-end and back-end development.",
-    icon: React.createElement(BsAi),
+    icon: React.createElement(BsAlarmFill),
     date: "2023 - 2024",
   },
   {
@@ -84,13 +82,15 @@ export const projectsData = [
       "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
     imageUrl: corpcommentImg,
+    link: ""
   },
   {
-    title: "rmtDev",
+    title: "Sharecode (SHC)",
     description:
       "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+    imageUrl: shcLoginImg,
+    link: "https://shc.ajaysharma.dev",
   },
   {
     title: "Word Analytics",
@@ -98,6 +98,7 @@ export const projectsData = [
       "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
     imageUrl: wordanalyticsImg,
+    link: "https://wordanalytics.ajaysharma.dev",
   },
 ] as const;
 
